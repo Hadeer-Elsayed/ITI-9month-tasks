@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        progress {
+            width: 440px;
+        }
+    </style>
+</head>
+<body>
+    <video id="myVideo" src="../Video/frozen.mp4" width="500px" height="300px" poster="../image/frozen.jpg"></video>
+    <br>
+    <progress id="progress" max="100" value="0"></progress>
+    <span id="current">0.0</span>/<span id="total">0.0</span>
+    <div class="controls">
+        <button id="play">Play</button>
+        <button id="stop">Stop</button>
+        <button id="start">&lt;</button>
+        <button id="decrease">&lt;&lt;</button>
+        <button id="increase">&gt;&gt;</button>
+        <button id="end">&gt;</button>
+        <input id="sound" type="range" max="10" value="10" step="1">
+        <button id="mute">Mute</button>
+        <br>
+        <label>Speed:</label>
+        <input id="speed" type="range" min="1" max="16" value="4" step="1">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
