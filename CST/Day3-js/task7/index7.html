@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>page6</title>
+        <script>
+        function openWin()
+         {
+           win=open("child3.html","","width=200,height=200");
+         }
+
+         openWin();
+
+         
+
+         var x=setInterval(function scroll()
+         {
+            win.scrollBy(50,50)
+         },1000)
+         
+        setTimeout(function()
+        {
+          clearInterval(x);
+          win.close()},5000)
+         
+          //give me an error
+        // win.document.getElementById("hadeer")="hadeer";
+
+        //don't give error
+       // win.document.write("hadeer");
+        </script>
+    </head>
+    <body></body>
+</html>

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Day7/task1"
+		},
+		{
+			"path": "../../../../../ITI projects/Project1 Js"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project1 Js"
+	}
+}
