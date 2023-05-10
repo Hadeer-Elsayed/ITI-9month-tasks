@@ -1,0 +1,20 @@
+.circle {
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid red;
+    border-left: 100px solid red;
+    border-bottom: 100px solid red;
+    border-right: 100px solid transparent;
+    border-radius: 50%;
+    animation: openMouth;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+@keyframes openMouth {
+    from {
+        border-right: 100px solid transparent;
+    }
+    to {
+        border-right: 100px solid red;
+    }
+}

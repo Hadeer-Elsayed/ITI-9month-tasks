@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Application</title>
+        <link href="../CSS/index1.css" rel="stylesheet" type="text/css"/>
+        <meta http-equiv="refresh" content="5,./index5.html"/>
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <table border="7px"  cellspacing="10px">
+                <form action="./index1.html">
+                <tr>
+                    <td><label for="F">First Name</label></td>
+                    <td><input type="text" id="F" name="First name"/></td> 
+                </tr>
+                <tr>
+                    <td><label for="L">last Name</label></td>
+                    <td><input type="text" id="L" name="Last name"/></td> 
+                </tr>
+                <tr>
+                    <td><label for="p">Password</label></td>
+                    <td><input type="password" id="p" name="Password"/></td> 
+                </tr>
+                <tr>
+                    <th rowspan="2">Gender</th>
+                    <td>
+                        <input type="radio" id="M" name="Gender" value="Male"/>
+                        <label for="M">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="F" name="Gender" value="Female"/>
+                        <label for="F">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Birthday:</label>
+                        <select  name="month_of_birth">
+                            <option disabled selected>[Select a Month]</option>
+                            <option value="Jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="march">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="AUg">Aug</option>
+                            <option value="Sept">Septem</option>
+                            <option value="oct">Oct</option>
+                            <option value="nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="day_of_birth" value="dd" size="2"/>
+                        <input type="text" name="year_of_birth" value="yyyy" size="4"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="big"><u>Interests</u></th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="intersts" value="sports" id="s">
+                        <label for="s">Sports</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="intersts" value="Music" id="mus">
+                        <label for="mus">Music</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="intersts" value="Books" id="book">
+                        <label for="book">Books</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="intersts" value="Computer_stuff" id="com">
+                        <label for="com">Computer Stuff</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="intersts" value="Fashion" id="fash">
+                        <label for="fash">Fashion</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="intersts" value="Movies" id="mov">
+                        <label for="mov">Movies</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2"><input type="submit" value="Submit"/></th>
+                </tr>
+    
+    
+                </form>
+            </table>
+        </div>
+    
+    </body>
+</html>

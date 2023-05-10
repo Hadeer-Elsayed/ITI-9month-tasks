@@ -1,0 +1,45 @@
+@import"./colors";
+
+.main
+{
+    &-title
+    {
+        color: $primary;
+    }
+    &-subtitle
+    {
+        color: $secondary;
+    }
+    &-btn
+    {
+        color:$primary;
+        &:hover
+    {
+        color:$secondary ;
+    }
+    }
+    
+}
+
+
+$i:14px;
+@while $i<=18px 
+{
+  .font-#{$i}
+  {
+    font-size:$i;
+  }
+  $i:$i+2
+}  
+
+.finish-btn{
+    width: 50%;
+}
+
+@media (max-width:600px){
+    .finish-btn{
+        width: 100%;
+    }
+}
+
+

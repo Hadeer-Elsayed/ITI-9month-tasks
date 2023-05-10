@@ -1,0 +1,14 @@
+input:invalid {
+    border-color: red;
+}
+
+input:valid+p{
+    display: none;
+}
+input:focus {
+    outline: none;
+}
+input {
+    display: block;
+    margin-bottom: 10px;
+}

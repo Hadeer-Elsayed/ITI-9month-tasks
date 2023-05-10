@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <canvas width="500" height="450"></canvas>
+    <script>
+        var canvas = document.getElementsByTagName("canvas")[0];
+        var ctx = canvas.getContext('2d');
+                var lingrad = ctx.createLinearGradient(0,0,0,450);
+                
+                lingrad.addColorStop(0, '#00ABEB');
+                lingrad.addColorStop(0.5, '#fff');
+                
+                lingrad.addColorStop(0.5, '#66CC00');
+                lingrad.addColorStop(1, '#fff');
+                
+                var lingrad2 = ctx.createLinearGradient(0,50,0,150);
+                lingrad2.addColorStop(0.5, '#000');
+                lingrad2.addColorStop(1, 'rgba(0,0,0,0)');
+                
+                ctx.fillStyle = lingrad;
+                ctx.strokeStyle = lingrad2;
+                
+                ctx.fillRect(10,10,480,440);
+                ctx.strokeRect(125,50,200,400);
+    </script>
+</body>
+</html>

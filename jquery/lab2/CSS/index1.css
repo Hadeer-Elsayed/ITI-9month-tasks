@@ -1,0 +1,9 @@
+.moving_car
+{
+    position: absolute;
+}
+.sentence
+{
+    position: relative;
+    top: 100px;
+}
